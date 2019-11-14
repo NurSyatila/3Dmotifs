@@ -2,7 +2,7 @@
 Sub-structural similarity searches that include searching for similarly arranged amino acid arrangements in the Protein Data Bank
 
 This repository contain automated scripts to search and analyse substructures.
-# AUTO_IMAAAGINE - Automated computational pipeline used to search for user-defined amino acid arrangement in the PDB
+# AUTO_IMAAAGINE - Automated computational pipeline used to search for user-defined amino acid arrangement in the PDB (tested on symmetrical residue arrangements in biological assemblies)
 1. Search for user-defined hypothetical amino acid arrangement using IMAAAGINE algorithm (http://mfrlab.org/imaaagine/) with pre-defined inter-residue distance and distance tolerance 
 2. Sequentially run multiple IMAAAGINE searches
 3. Obtain output from the IMAAAGINE searches and generate PDB-formatted patterns for substructural comparison
