@@ -36,4 +36,5 @@ This repository contain automated scripts to search and analyse substructures.
     b. sequence_comparison.R (sub-script for pairwise sequence alignment)
     c. Bash scripts for ASSAM searches (assam-run.sh)
     d. Bash script for converting pdb into pattern file used for the web server (dreposed_sprite_pat.sh)
-    e. DrugTable.csv (PDB-drug mappings obtained from the RCSB PDB)
+    e. drreposer_dock.py (script for molecular docking in UCSF Chimera)
+    f. DrugTable.csv (PDB-drug mappings obtained from the RCSB PDB)
