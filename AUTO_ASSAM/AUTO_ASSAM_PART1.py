@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#A program to parse user.LP
+"""
+A script used for analysis of sub-structures in PDB using ASSAM program.
+"""
 import itertools, sys, os, subprocess, shutil, glob, numpy as np, re, collections, operator, datetime, optparse, csv
 #import Bio
 trans = {'ALA':'A','CYS':'C','CYH':'C','CSS':'C','ASP':'D','GLU':'E','PHE':'F','GLY':'G','HIS':'H','ILE':'I','LYS':'K','LEU':'L','MET':'M','ASN':'N','PRO':'P','GLN':'Q','ARG':'R','SER':'S','THR':'T','VAL':'V','TRP':'W','TYR':'Y','UNK':'X','MSE':'M'}
