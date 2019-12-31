@@ -477,7 +477,7 @@ def generate_sequence_identity(matrix_dir):
 			proc = subprocess.Popen("R < /Users/nursyatila/NSAG_PART1/ASS_EXE/sequence_comparison.R --no-save", shell=True, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 			proc.communicate()
 		os.chdir(matrix_dir)
- 
+#----------------------FOURTH OPTIONS: SAVE BOTH SEQUENCE IDENTITY FROM MUSCLE SEARCH AND Z-SCORES FROM DALI SEARCH INTO MATRICES------------------------- 
 def save_matrix(matrixdir):
 	outputnf=open("single_fold.txt","a")
 	outputns=open("single_seq.txt","a")
